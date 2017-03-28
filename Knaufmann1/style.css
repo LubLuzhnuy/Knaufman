@@ -1,0 +1,284 @@
+
+body{
+    margin:0;
+    padding: 0;
+    
+}
+.col-xs-7{
+    padding: 0;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:white;
+}
+#Kontactu{
+    border:2px solid rgba(116, 10, 10, 0.72);
+    margin-top: 40px;
+    float: right;
+    height: 30px;
+    color:white;
+    background-color: red;
+    transition: 1s ease-in-out;
+    text-align: center;
+    clear: none;
+}
+#Kontactu p{
+    line-height: 30px;
+    font-size: 1.2em;
+    float: left;
+}
+#Kontactu:hover{
+    background-color: rgba(116, 10, 10, 0.72);
+    font-size: 1.5em;
+    width: 20%;
+    height: 35px;
+    margin-right: 5%;
+}
+#golovna{
+    border:2px solid rgba(116, 10, 10, 0.72);
+    margin-top: 40px;
+    float: left;
+    height: 30px;
+    color:white;
+    background-color: red;
+    transition: 1s ease-in-out;
+    text-align: center;
+    clear: none;
+}
+#golovna p{
+    line-height: 30px;
+    font-size: 1.2em;
+    float: right;
+}
+
+#golovna:hover{
+    background-color: rgba(116, 10, 10, 0.72);
+    font-size: 1.5em;
+    width: 20%;
+    height: 35px;
+    margin-left: 5%;
+    
+}
+#golovna:hover p{
+    text-decoration: underline;
+}
+#backgroundDiv{
+    z-index: 1;
+    position: relative;
+    height: 750px;
+    background: url(Images/background.png) no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-clip: border-box;
+    padding: 0;
+}
+#Knaufman{
+    margin: 0;
+    height: 190px;
+    padding: 0;
+    margin-top:200px; 
+    clear: both;
+    
+}
+#PROFESIONAL{
+    line-height: 25px;
+    width: 35%;
+    padding-left: 2%;
+    height: 24px;
+    float:right;
+    margin: 0;
+    color:white;
+    background-color: red;
+    font-size:1.5em;
+    font-style: oblique;
+    font-weight: bold;
+}
+#H1ofKnaufman{
+    
+    clear: both;
+    float: right;
+    margin: 0;
+    color:black;
+    font-size:3.8em;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#Knaufman>hr{
+    width: 100%;
+    clear: both;
+    background: red;
+    margin: 0;
+    height:10px;
+}
+#Knaufman>p:last-child{
+    font-size:1.5em;
+    font-family: monospace;
+    float: right;
+}
+
+#minKatalog{
+    margin: 0;
+    margin-top: 50px;
+    float: left;
+    padding: 0;
+}
+#minKatalog>div{
+    border:2px solid rgba(116, 10, 10, 0.72);
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+    height: 30px;
+    color:white;
+    background-color: red;
+    transition: 1s ease-in-out;
+    padding-right: 0;
+    text-align: right;
+    position: relative;
+}
+#minKatalog>div p{
+    line-height: 30px;
+    font-size: 1.2em;
+    
+}
+#minKatalog>div>a>p>span{
+    float:right;
+    margin-right: 0;
+    line-height: 30px;
+    font-size: 1.2em;
+    margin-left: 8%;
+}
+
+#minKatalog>div:hover{
+    font-size: 1.5em;
+    width: 30%;
+    height: 35px;
+    margin-left: 5%;
+    background-color: rgba(116, 10, 10, 0.72);
+    
+}
+#backgroundDiv2{
+    z-index: 1;
+    position: relative;
+    height: 2200px;
+    background: url(Images/background.png) no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-clip: border-box;
+    padding: 0;
+    text-align: center;
+    
+}
+#pinu{
+    width:80%;
+    text-align: center;
+    height:500px;
+    position: absolute;
+    left:10%;
+    top:200px;
+   
+}
+.thumbnail{
+    padding-top:5%;
+    height: 350px;
+    transition: 1s ease-in-out;
+}
+#captionP{
+    opacity: 0;
+    transition: 2s ease-in;
+    color:white;
+    font-size:16px;
+   
+}
+.caption h3{
+    color:white;
+}
+.thumbnail:hover{
+   
+    height:640px;
+    margin-left: 50px;
+    
+}
+.thumbnail:hover #thumbnailDiv{
+    margin-bottom: 50px;
+    
+}
+.thumbnail:hover #captionP{
+    opacity:1;
+}
+#backgroundDiv3{
+    z-index: 1;
+    position: relative;
+    height: 1700px;
+    background: url(Images/background.png) no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-clip: border-box;
+    padding: 0;
+    text-align: center;
+}
+#minKatalog2{
+    margin: 0;
+    margin-top: 50px;
+    float: right;
+    padding: 0;
+}
+#minKatalog2>div{
+    border:2px solid rgba(116, 10, 10, 0.72);
+    clear: both;
+    float: right;
+    margin-bottom: 20px;
+    height: 30px;
+    color:white;
+    background-color: red;
+    transition: 1s ease-in-out;
+    padding-right:2%;
+    text-align: right;
+    position: relative;
+}
+#minKatalog2>div p{
+    line-height: 30px;
+    font-size: 1.2em;
+    float: left;
+}
+#Knaufman2{
+    margin: 0;
+    height: 190px;
+    padding: 0;
+    margin-top:200px; 
+    clear: both;
+    
+}
+#PROFESIONAL2{
+    line-height: 25px;
+    width: 35%;
+    padding-left: 2%;
+    height: 24px;
+    float:left;
+    margin: 0;
+    color:white;
+    background-color: red;
+    font-size:1.2em;
+    font-style: oblique;
+    font-weight: bold;
+}
+#H1ofKnaufman2{
+    
+    clear: both;
+    float: left;
+    margin: 0;
+    color:black;
+    font-size:3.2em;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#Knaufman2>hr{
+    width: 100%;
+    clear: both;
+    background: red;
+    margin: 0;
+    height:10px;
+}
+
+
